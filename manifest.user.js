@@ -15,6 +15,7 @@
 //
 // @match           *://shikimori.me/*
 // @match           *://shikimori.one/*
+// @match           *://shikimori.io/*
 // @match           *://shiki.one/*
 // @match           *://kodik.info/*
 //

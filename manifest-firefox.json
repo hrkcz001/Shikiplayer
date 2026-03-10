@@ -10,7 +10,12 @@
   "version": "$(VERSION)",
 
   "browser_specific_settings": {
-    "gecko": {"id": "{e6624e6b-2351-4a1d-b7b7-c714fffee424}"}
+    "gecko": {
+      "id": "{fb4c92b5-4acb-44e3-8653-a44f52c7bd39}",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
   },
 
   "permissions": [

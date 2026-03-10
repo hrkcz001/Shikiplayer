@@ -88,7 +88,9 @@ async function build(config) {
     if (config.esbuild) {
         tasks.push((async () => {
             console.log(`  Bundling...`);
-            let command = `esbuild`;
+            const path = require('path');
+            const esbuildPath = path.join(__dirname, 'node_modules', '@esbuild', 'win32-x64', 'esbuild.exe');
+            let command = esbuildPath;
             let options = [
                 config.esbuild.entry,
                 `--log-level=warning`

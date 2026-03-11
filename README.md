@@ -20,7 +20,7 @@
 ## How to build
 
 ## Ахтунг
-Билдится будет только если установлена локально esbuild в node_modules, из за следующих строчек в build.js
+Билдиться будет только если установлена локально esbuild в node_modules, из за следующих строчек в build.js
 ```
     const path = require('path');
     const esbuildPath = path.join(__dirname, 'node_modules', '@esbuild', 'win32-x64', 'esbuild.exe');

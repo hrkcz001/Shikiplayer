@@ -16,7 +16,7 @@ const CONFIG = {
 `,
 
     unwrapped_window: "lib/UnwrappedWindow/inject.js",
-    kodik_token: "447d179e875efe44217f20d1ee2146be",
+    kodik_token: "a0457eb45312af80bbb9f3fb33de3e93",
     poster: "//raw.github.com/qt-kaneko/Shikiplayer/main/assets/poster.jpg",
 
     userscript: "file://dist/Shikiplayer.js"

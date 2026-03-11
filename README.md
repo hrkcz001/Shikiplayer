@@ -18,6 +18,15 @@
 ![image](./assets/screenshots/5.png?raw=true)
 
 ## How to build
+
+## Ахтунг
+Билдится будет только если установлена локально esbuild в node_modules, из за следующих строчек в build.js
+```
+    const path = require('path');
+    const esbuildPath = path.join(__dirname, 'node_modules', '@esbuild', 'win32-x64', 'esbuild.exe');
+```
+иначе у меня под виндой не работало, замените на оригинальные или под себя, если у вас иначе
+
 ### To build extension:
 - With VSCode: Run 'Build Extension' or 'Build Release Extension' task.
 - With Node: Run 'node build.js extension' or 'node build.js extension --release'.

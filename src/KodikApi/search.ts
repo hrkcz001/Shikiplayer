@@ -2,7 +2,7 @@ import {Response} from "./Response";
 
 export async function search(animeId: number)
 {
-  let url = `https://kodikapi.com/search`
+  let url = `https://kodik-api.com/search`
           + `?token=$(KODIK_TOKEN)`
           + `&shikimori_id=${animeId}`;
 

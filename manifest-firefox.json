@@ -19,7 +19,7 @@
   },
 
   "permissions": [
-    "*://kodikapi.com/*",
+    "*://kodik-api.com/*",
     "*://raw.githubusercontent.com/*"
   ],
 

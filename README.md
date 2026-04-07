@@ -1,5 +1,5 @@
 
-[![image](https://img.shields.io/amo/v/shikiplayer?style=for-the-badge&color=orange)](https://addons.mozilla.org/en-US/firefox/addon/shikiplayer-hrkcz001s-fix/) UNOFFICIAL
+[![image](https://img.shields.io/badge/mozilla%20add--on-UNOFFICIAL-orange?style=for-the-badge)](https://addons.mozilla.org/en-US/firefox/addon/shikiplayer-fixed/)
 
 ## How to build
 
